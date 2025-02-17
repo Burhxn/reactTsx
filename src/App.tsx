@@ -1,5 +1,7 @@
 import AdminInfo from "./components/AdminInfo"
 import Counter from "./components/Counter"
+import Form from "./components/Form"
+import ReducerCounter from "./components/reducerCounter"
 import Todo from "./components/Todo"
 import UserInfo from "./components/UserInfo"
 import { AdminInfoList, Info } from "./types"
@@ -24,6 +26,8 @@ const App = () => {
       {/* <AdminInfo admin={admin}/> */}
       <Counter/>
       <Todo/>
+      <Form/>
+      <ReducerCounter/>
     </div>
   )
 }
